@@ -37,6 +37,7 @@ nav#navegacion {
 }
 
 .menu {
+  font-family: arial;
   color: white;
   padding: 10px 40px;
   text-align: center;
@@ -84,6 +85,7 @@ div#descripcion {
 
 p {
   padding: 10px;
+  font-family: Arial;
 }
 
 section#contacto {
@@ -108,6 +110,10 @@ div#formulario {
   border-radius: 20px;
   background-color: white;
   margin: 20px;
+}
+
+label{
+  font-family: Arial;
 }
 
 input {
