@@ -13,10 +13,10 @@
   <div class="container">
     <header>
       <nav id="navegacion">
-        <div class="row">
-          <div class="col-sm-4" onclick="location.href='#'">Home</div>
-          <div class="col-sm-4" onclick="location.href='#'">Carrera</div>
-          <div class="col-sm-4" onclick="location.href='#'">Mis proyectos</div>
+        <div class="bar-menu">
+          <div class="col-sm-2" id="menu" onclick="location.href='#'">Home</div>
+          <div class="col-sm-2" id="menu" onclick="location.href='#'">Carrera</div>
+          <div class="col-sm-2" id="menu" onclick="location.href='#'">Mis proyectos</div>
         </div>
       </nav>
     </header>
@@ -38,7 +38,7 @@
           <label for="pregunta">Pregunta</label>
           <input type="text" id="pregunta" />
           <label for="correo">Correo</label>
-          <input type="text" placeholder="juancamilovelez99@gmail.com" />
+          <input type="text" placeholder="juancamilovelez99@gmail.com" disabled/>
           <button type="submit">Enviar</button>
         </div>
       </article>

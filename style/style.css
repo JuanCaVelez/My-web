@@ -25,7 +25,7 @@ nav#navegacion {
   align-items: center;
 }
 
-.barmenu {
+.bar-menu {
   width: 100%;
   height: 80%;
   display: flex;
@@ -36,7 +36,8 @@ nav#navegacion {
   padding: 0;
 }
 
-.menu {
+div#menu {
+  font-size: small;
   font-family: arial;
   color: white;
   padding: 10px 40px;
@@ -45,11 +46,11 @@ nav#navegacion {
   transition: background-color 0.3s ease;
 }
 
-.menu:hover {
+#menu:hover {
   background-color: #555;
 }
 
-.menu:active {
+#menu:active {
   background-color: #777;
 }
 
@@ -112,13 +113,13 @@ div#formulario {
   margin: 20px;
 }
 
-label{
+label {
   font-family: Arial;
 }
 
 input {
   width: 250px;
-  margin: 10px;
+  margin: 5px;
 }
 
 button {
@@ -161,13 +162,13 @@ nav#redes {
 }
 
 #redes .social .link a img {
-  width: 40px;
+  width: 60px;
   transition: transform 0.3s ease, witdth 0.3s ease;
 }
 
 #redes .social .link a:hover img {
   transform: scale(1.2);
-  width: 45px;
+  width: 70px;
 }
 
 #redes .social .link a {
